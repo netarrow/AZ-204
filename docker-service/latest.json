@@ -1,0 +1,98 @@
+{
+    "Id": "sha256:e1eab623370a84a527acc6cfe1645b686b1e96bf2e1cefac9866fd44edbc30e4",
+    "RepoTags": [
+        "az204:latest"
+    ],
+    "RepoDigests": [],
+    "Parent": "",
+    "Comment": "buildkit.dockerfile.v0",
+    "Created": "2021-05-08T10:59:39.904361498Z",
+    "Container": "",
+    "ContainerConfig": {
+        "Hostname": "",
+        "Domainname": "",
+        "User": "",
+        "AttachStdin": false,
+        "AttachStdout": false,
+        "AttachStderr": false,
+        "Tty": false,
+        "OpenStdin": false,
+        "StdinOnce": false,
+        "Env": null,
+        "Cmd": null,
+        "Image": "",
+        "Volumes": null,
+        "WorkingDir": "",
+        "Entrypoint": null,
+        "OnBuild": null,
+        "Labels": null
+    },
+    "DockerVersion": "",
+    "Author": "",
+    "Config": {
+        "Hostname": "",
+        "Domainname": "",
+        "User": "",
+        "AttachStdin": false,
+        "AttachStdout": false,
+        "AttachStderr": false,
+        "ExposedPorts": {
+            "5000/tcp": {}
+        },
+        "Tty": false,
+        "OpenStdin": false,
+        "StdinOnce": false,
+        "Env": [
+            "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "ASPNETCORE_URLS=http://+:5000",
+            "DOTNET_RUNNING_IN_CONTAINER=true"
+        ],
+        "Cmd": null,
+        "Image": "",
+        "Volumes": null,
+        "WorkingDir": "/app",
+        "Entrypoint": [
+            "dotnet",
+            "docker-service.dll"
+        ],
+        "OnBuild": null,
+        "Labels": {
+            "com.microsoft.created-by": "visual-studio-code"
+        }
+    },
+    "Architecture": "amd64",
+    "Os": "linux",
+    "Size": 207777495,
+    "VirtualSize": 207777495,
+    "GraphDriver": {
+        "Data": {
+            "LowerDir": "/var/lib/docker/overlay2/f53kg5l5y67nr6nrg6w5z3852/diff:/var/lib/docker/overlay2/lyhsvf7p6ajesxk3im9g9en2m/diff:/var/lib/docker/overlay2/054fbac434e1ab12e7593761469a202bca740e111b18883747a4ff566743cef9/diff:/var/lib/docker/overlay2/9e343d0f4759b2ec8710dde99112185f4b0fed5adfc343320e612bf970933b2b/diff:/var/lib/docker/overlay2/7cc66f3ae98eabcfe11d8e26b10f04de2fcfdac705cd66a40216ceb5a1e4f110/diff:/var/lib/docker/overlay2/0df3107d3445f5836fc262ded76b6ea876634254ebeecae97f957219c94258c0/diff:/var/lib/docker/overlay2/e727c7b8ed5b1c5952f0f6ac575ddeffa2d48596a31fab9d805d2b9bee89fc02/diff",
+            "MergedDir": "/var/lib/docker/overlay2/tk2qxxaq8syy3xgofy54gpw99/merged",
+            "UpperDir": "/var/lib/docker/overlay2/tk2qxxaq8syy3xgofy54gpw99/diff",
+            "WorkDir": "/var/lib/docker/overlay2/tk2qxxaq8syy3xgofy54gpw99/work"
+        },
+        "Name": "overlay2"
+    },
+    "RootFS": {
+        "Type": "layers",
+        "Layers": [
+            "sha256:7e718b9c0c8c2e6420fe9c4d1d551088e314fe923dce4b2caf75891d82fb227d",
+            "sha256:3cf53a68ca2fe9275d1952bb95060ac1eaf07d2c3cdfa5c1704dc777be5ab027",
+            "sha256:b11cb364ccec7317bdd7e3e1162beec2cc3b36faf3ce6c97d7cfefc25bef0330",
+            "sha256:71c1fc503ae792467d377b4c1860be265577b4a3485034f140079dab20890ee7",
+            "sha256:5dfad66dd70d62c77fb8c05abd42fafe75acb30fb0157b79acf6792d41c48566",
+            "sha256:bc2b12e3fb53d24a7e89b8c97e3e55e4fc308d5961f104ce0089200bcd5873bd",
+            "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+            "sha256:c8b86af026b3fa708e0ad52d8d7cdaa857ecdb28f92eddadd1eb4ba0502eb0a6"
+        ]
+    },
+    "Metadata": {
+        "LastTagTime": "2021-05-08T10:59:39.948837964Z"
+    },
+    "CreatedTime": 1620471579904,
+    "Containers": {
+        "10c6b0b8036c2e464373bab880305a3fea9be71b9c0da650cfc09a86c99a1223": {
+            "Name": "stupefied_hawking"
+        }
+    }
+}
